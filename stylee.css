@@ -81,7 +81,7 @@ margin-right: 25px;
 .features{
 height:85%;
 width:40%;
-
+position: absolute;
 bottom: 0;
 right: 80px;
 bottom: 20px;
