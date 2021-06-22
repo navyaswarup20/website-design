@@ -11,7 +11,7 @@ background-size: 100%;
 padding-left: 5%;
 padding-right: 5%;
 box-sizing: border-box;
-
+position: relative;
 }
 .navbar{
 width: 100%;
@@ -81,7 +81,7 @@ margin-right: 25px;
 .features{
 height:85%;
 width:40%;
-position: absolute;
+
 bottom: 0;
 right: 80px;
 bottom: 20px;
