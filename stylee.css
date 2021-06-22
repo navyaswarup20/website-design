@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+height: 100vh;
+width: 100%;
+background-image: url(images/bg4.jpg);
+backgroud-position: center;
+background-size: 100%;
+padding-left: 5%;
+padding-right: 5%;
+box-sizing: border-box;
+position: relative;
+}
+.navbar{
+width: 100%;
+height: 15vh;
+margin: auto;
+display: flex;
+align-items: center;
+}
+.logo{
+width: 160px;
+cursor: pointer;
+}
+.cart{
+width: 50px;
+height: 50px;
+cursor: pointer;
+}
+nav{
+flex: 1;
+padding-left: 200px;
+}
+
+nav ul li{
+display: inline-block;
+list-style:none;
+margin: 0px 20px;
+}
+nav ul li a{
+text-decoration:none;
+color:black;
+}
+.content h2{
+font-size: 40px;
+font-weight: 100;
+margin-top:20px;
+margin-bottom: 15px;
+color: #232d60;
+}
+.content H4{
+font-size: 20px;
+ color: #6a7199;
+}
+.content{
+margin-left: 10%;
+margin-top: 10%;
+}
+.content .btn{
+ display: inline-block;
+background-image: linear-gradient(45deg, #87adfe , #ff77cd);
+border-radius: 6px;
+padding: 10px 20px;
+box-sizing: border-box;
+text-decoration:none;
+color: #fff;
+box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+}
+.icons{
+margin-top: 20px;
+display: flex;
+padding: 0% 10%;
+cursor: pointer;
+}
+.icons img{
+width: 40px;
+margin-right: 25px;
+}
+.features{
+height:85%;
+width:40%;
+position: absolute;
+bottom: 0;
+right: 80px;
+bottom: 20px;
+border-radius: 50%;
+}
+.social{
+transform: rotate(360deg);
+position: absolute;
+left: 40%;
+bottom: 5%;
+}
+.social a{
+text-decoration: none;
+color: gray;
+padding-right: 20px;
+font-size: 14px;
+}
+.social a:hover {
+background-color: pink;
+color:black;
+}
+.flow{
+position: absolute;
+display: flex;
+}
+
+
+
