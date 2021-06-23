@@ -110,8 +110,8 @@ display: flex;
 @media screen and (max-width: 600px)
 {
 .features{
-height:60%;
-width:120%;
+height:100%;
+width:180%;
 position: absolute;
 border-radius: 80%;
 }
