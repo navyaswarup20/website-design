@@ -111,13 +111,13 @@ display: flex;
 {
 .features{
 height:60%;
-width:140%;
+width:120%;
 position: absolute;
- style=float:right;
+border-radius: 80%;
 }
 }
  .container{
-background-repeat: no-repeat;
+
 }
 
 }
