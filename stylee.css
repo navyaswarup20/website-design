@@ -107,6 +107,12 @@ color:black;
 position: absolute;
 display: flex;
 }
-
+@media screen and (max-width: 600px)
+{
+.features{
+height:60%;
+width:10%;
+}
+}
 
 
