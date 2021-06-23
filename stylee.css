@@ -112,6 +112,8 @@ display: flex;
 .features{
 height:60%;
 width:10%;
+style="float:down";
+}
 }
  .container{
 background-repeat: no-repeat;
